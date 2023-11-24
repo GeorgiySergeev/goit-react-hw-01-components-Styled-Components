@@ -5,3 +5,12 @@
 /* @import './css/statistics.css';
 @import './css/friend-list.css';
 @import './css/heading.module.css'; */
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #d4d1d1;
+}

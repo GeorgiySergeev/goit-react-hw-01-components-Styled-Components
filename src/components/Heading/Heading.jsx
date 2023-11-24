@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import css from './heading.module.css';
+import { HeadingTitle, UnderTitle } from './Heading.styled';
 
 export function Heading({ title, children }) {
   return (
     <div>
-      <h1 className={`${css.heading}`}>{title}</h1>
-      <h3 className={`${css.underHeading}`}>{children}</h3>
+      <HeadingTitle>{title}</HeadingTitle>
+      <UnderTitle>{children}</UnderTitle>
     </div>
   );
 }
