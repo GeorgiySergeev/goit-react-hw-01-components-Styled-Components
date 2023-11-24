@@ -1,0 +1,28 @@
+.transactionHistory {
+  background-color: aliceblue;
+  width: 448px;
+  margin-top: 15px;
+}
+
+.tableTitle {
+  font-size: 18px;
+  text-align: start;
+  color: tomato;
+}
+.tableHead {
+  background-color: aqua;
+}
+
+.tableBody {
+  font-size: 18px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #d4d1d1;
+}
